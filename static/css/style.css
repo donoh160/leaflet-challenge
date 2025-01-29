@@ -8,3 +8,26 @@ body,
 html {
   height: 100%;
 }
+
+/* The following formats the legend */
+
+.item {
+  display: flex;
+  align-items: center; /* Aligns items vertically centered */
+  margin-bottom: 5px; /* Optional: Adds space between legend items */
+}
+
+.info.legend {
+  background-color: white; /* Background color of the legend */
+  border: 2px solid black; /* Border around the legend */
+  border-radius: 5px; /* Optional: rounded corners */
+  padding: 20px; /* Space inside the box */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: shadow for better visibility */
+}
+
+.symbol {
+  width: 15px; 
+  height: 15px; 
+  border: 1px solid black; /* Border for the colored square */
+  margin-right: 5px; /* Space between the colored square and the label */
+}
